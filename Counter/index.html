@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      /* Prevents scrollbars */
+    }
+    </style>
+</head>
+<body>
+  <div class="flex flex-col items-center justify-center bg-blue-800 h-screen">
+    <h1 class=" font-bold text-4xl mb-4">COUNTER</h1>
+    <h1 class="font-bold py-2 px-4 mb-4 text-4xl">0</h1>
+    <div class="flex gap-4">
+      <button id="decreaseBtn" class="border rounded-md font-bold text-gray-900 hover:bg-white py-2 px-4">Decrease</button>
+      <button id="resetBtn" class="border rounded-md font-bold text-gray-900 hover:bg-white py-2 px-4">Reset</button>
+      <button id="increaseBtn" class="border rounded-md font-bold text-gray-900 hover:bg-white py-2 px-4">Increase</button>
+    </div>
+    
+  </div>
+  
+
+</body>
+</html>
