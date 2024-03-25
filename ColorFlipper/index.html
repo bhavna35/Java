@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Flipper</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      /* Prevents scrollbars */
+    }
+
+    #colorDiv {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex justify-center">
+    <h1 class="text-blue-500 m-2 font-bold">Color Flipper</h1>
+  </div>
+  <div id="colorDiv" class="bg-red-400 flex flex-col items-center justify-center">
+    <h1 class="text-white font-bold">BACKGROUND COLOR : <span id="colorName" class="ml-2">Red</span></h1>
+    <button id="changeColorBtn" class="m-2 border p-2 rounded-md font-bold text-gray-300 hover:bg-white hover:text-blue-500">Click Me</button>
+  </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
