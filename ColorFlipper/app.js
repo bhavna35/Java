@@ -25,25 +25,25 @@ changeColorBtn.addEventListener("click", () => {
 
   switch (randomColor) {
     case "bg-red-400":
-      colorName.textContent = "Red";
+      colorName.textContent = "RED";
       break;
     case "bg-blue-400":
-      colorName.textContent = "Blue";
+      colorName.textContent = "BLUE";
       break;
     case "bg-green-400":
-      colorName.textContent = "Green";
+      colorName.textContent = "GREEN";
       break;
     case "bg-yellow-400":
-      colorName.textContent = "Yellow";
+      colorName.textContent = "YELLOW";
       break;
     case "bg-pink-400":
-      colorName.textContent = "Pink";
+      colorName.textContent = "PINK";
       break;
     case "bg-gray-400":
-      colorName.textContent = "Gray";
+      colorName.textContent = "GRAY";
       break;
     default:
-      colorName.textContent = "Unknown";
+      colorName.textContent = "UNKNOWN";
       break;
   }
 });

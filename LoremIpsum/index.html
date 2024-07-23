@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorem Ipsum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <div class="bg-blue-100 h-screen flex justify-center">
+    <section class="text-center mt-16">
+        <h3>TIRED OF BORING LOREM IPSUM?</h3>
+        <form class="mt-4" id="randomTextForm">
+            <label for="amount" class="rounded-full px-2 py-1">Paragraphs:</label>
+            <input
+                type="number"
+                name="amount"
+                id="amount"
+                maxlength="1"
+                placeholder="5"
+                class="rounded px-1 py-1 bg-blue-200"
+            />
+            <button type="submit" id="btn"class="rounded-full px-3 py-1 bg-blue-500 text-white">Generate</button>
+        </form>
+        <article id="generatedText" class="px-3 mt-8 "></article>
+    </section>
+</div>
+
+<!-- javascript -->
+  <script src="app.js"></script>
+</body>
+</html>
